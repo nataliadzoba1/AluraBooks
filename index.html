@@ -67,11 +67,8 @@
     <!-- If we need navigation buttons -->
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
-  
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
-  </div>
-  <div class="card">
+
+    <div class="card">
     <!--Primeira linha-->
     <div class="card__descricao">
         <!--Primeira coluna-->
@@ -83,8 +80,19 @@
         <!--Segunda coluna-->
         <img src="img/Angular.png" class="descricao__imagem">
     </div>
+    <!--segunda linha-->
+    <div class="card__botoes">
+        <!--primeira coluna-->
+        <ul class="botoes">
+            <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+            <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!--Segunda coluna-->
+        <a href="#" class="botoes__ancora">Saiba mais</a>
+    </div>
   </div>
-        </section>
+     
+</section>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
             const swiper = new Swiper('.swiper',{
